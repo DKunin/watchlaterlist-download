@@ -1,0 +1,15 @@
+doctype
+html
+  style.
+    * {
+      font-family: Helvetica;
+    }
+    .remove-link {
+      float: right;
+    }
+  body
+    ul 
+      each file in files
+        li
+          a(href='/videos/'+file, target='_blank')= file
+          a.remove-link(href='/remove/'+file, target='_blank') remove

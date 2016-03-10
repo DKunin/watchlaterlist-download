@@ -8,6 +8,9 @@
   "author": "DKunin",
   "license": "MIT",
   "dependencies": {
+    "del": "^2.2.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
     "youtube-dl": "^1.10.5"
   },
   "devDependencies": {},

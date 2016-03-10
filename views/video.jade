@@ -1,0 +1,13 @@
+doctype
+html
+  style.
+    * {
+      font-family: Helvetica;
+    }
+    .remove-link {
+      float: right;
+    }
+  body
+    h1= videoname
+    video(width='400', controls='')
+      source(src='/videos/'+videoname, type='video/mp4')
