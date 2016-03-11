@@ -11,6 +11,9 @@
     "del": "^2.2.0",
     "express": "^4.13.4",
     "jade": "^1.11.0",
+    "log-update": "^1.0.2",
+    "sanitize-filename": "^1.5.3",
+    "yandex-disk": "0.0.7",
     "youtube-dl": "^1.10.5"
   },
   "devDependencies": {},
