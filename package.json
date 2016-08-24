@@ -2,9 +2,7 @@
   "name": "watchlater-downloads",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "DKunin",
   "license": "MIT",
   "dependencies": {
@@ -14,7 +12,8 @@
     "log-update": "^1.0.2",
     "sanitize-filename": "^1.5.3",
     "yandex-disk": "0.0.7",
-    "youtube-dl": "^1.10.5"
+    "youtube-dl": "^1.10.5",
+    "youtube-search": "1.0.6"
   },
   "devDependencies": {},
   "description": ""
