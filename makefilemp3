@@ -1,7 +1,7 @@
 url = http://www.youtube.com/playlist?list=
 
 download:
-	youtube-dl $(url)PL9tBT0fSdbmJyyCI5W7TflYYg4R4GutUj \
+	youtube-dl $(url)PL9tBT0fSdbmKNT8xR4E608-uj5VvpeoFq \
 	--extract-audio \
 	--audio-format mp3 \
 	--add-metadata --output "public/mp3/%(title)s.%(ext)s" \
