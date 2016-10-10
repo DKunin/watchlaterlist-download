@@ -5,8 +5,8 @@ download:
 	youtube-dl $(url)$(list) \
 	--extract-audio \
 	--audio-format mp3 \
-	--add-metadata --output "public/mp3/%(title)s.%(ext)s" \
+	--add-metadata --output "public/Music/%(title)s.%(ext)s" \
 	--download-archive archive.txt
 
 clean:
-	rm -rf public/mp3/*
+	rm -rf public/Music/*
