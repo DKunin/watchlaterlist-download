@@ -1,11 +1,12 @@
 url = http://www.youtube.com/playlist?list=
+list = PL9tBT0fSdbmJyyCI5W7TflYYg4R4GutUj
 
 download:
-	youtube-dl $(url)PL9tBT0fSdbmKNT8xR4E608-uj5VvpeoFq \
+	youtube-dl $(url)$(list) \
 	--extract-audio \
 	--audio-format mp3 \
-	--add-metadata --output "public/mp3/%(title)s.%(ext)s" \
+	--add-metadata --output "public/Music/%(title)s.%(ext)s" \
 	--download-archive archive.txt
 
 clean:
-	rm -rf public/mp3/*
+	rm -rf public/Music/*
