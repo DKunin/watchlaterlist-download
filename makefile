@@ -1,5 +1,5 @@
-url = http://www.youtube.com/playlist?list=
-list = PL9tBT0fSdbmJtcabz3LMve-Ek9fU7Z6Jc
+url=http://www.youtube.com/playlist?list=
+list=''
 
 download:
 	youtube-dl $(url)$(list) \

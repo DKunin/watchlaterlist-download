@@ -5,3 +5,5 @@ public/Music
 videos
 node_modules
 archive.txt
+./**/.DS_Store
+.DS_Store
