@@ -2,7 +2,9 @@
   "name": "watchlater-downloads",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "init": "mkdir public && mkdir public/videos && mkdir public/music"
+  },
   "author": "DKunin",
   "license": "MIT",
   "dependencies": {
