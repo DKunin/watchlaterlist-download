@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "init": "mkdir public && mkdir public/videos && mkdir public/music"
+    "init": "mkdir public && mkdir public/videos && mkdir public/music",
+    "clean": "rm -rf public"
   },
   "author": "DKunin",
   "license": "MIT",
