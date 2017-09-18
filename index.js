@@ -1,10 +1,10 @@
 'use strict';
 
-var fs            = require('fs');
-var del           = require('del');
-var express       = require('express');
-var app           = express();
-var PORT          = 1999;
+var fs = require('fs');
+var del = require('del');
+var express = require('express');
+var app = express();
+var PORT = 1999;
 
 app.use(express.static('./public'));
 app.set('view engine', 'jade');
